@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Lobster&family=Lora&family=Montserrat:wght@200&family=Open+Sans:wght@300&family=Permanent+Marker&family=Raleway:wght@300&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Lobster&family=Lora&family=Montserrat:wght@200&family=Open+Sans:wght@300&family=Permanent+Marker&family=Raleway:wght@300&family=Secular+One&family=Square+Peg&display=swap');
+
+body
+{
+    background-image: url(./homebg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Gideon Roman', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Secular One', sans-serif;
+
+    color: white;
+}
+
+*,*::after,*::before
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    position: fixed;
+    height: fit-content;
+    width: 100%;
+    font-size: 18px;
+}
+
+.header_content
+{
+    width: 85%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a
+{
+    padding: 10px;
+}
+
+header img
+{
+    height: 100px;
+    width: 100px;
+}
+
+.header_buttons
+{
+    display: flex;
+    width: 550px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a:hover
+{
+    background-color: #D62B70;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+footer
+{
+    width: 100%;
+    height: fit-content;
+    position: fixed;
+    bottom: 0;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.footer_content
+{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main
+{
+    height: 100vh;
+}
+
+.main_content
+{
+    height: 100%;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+main .text
+{
+    width: fit-content;
+    text-align: center;
+}
+
+.text h2
+{
+    font-size: 38px;
+}
+
+.text h3
+{
+    font-size: 32px;
+}
+
+.text h1
+{
+    font-size: 58px;
+    font-family: 'Gideon Roman', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Square Peg', cursive;
+}
+
+
+.button
+{
+  position: relative;
+  padding: 1em 1.5em;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  font-size: 18px;
+  margin: 1em 0.8em;
+  color: white;
+  border: 2px solid;
+
+}
+   
+/* .button::after, .button::before
+{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    border: 2px solid;
+    transition: all 0.6s ease;
+    border-radius: 2px;
+} */
+/*
+.button::after
+{
+    bottom: 0;
+    right: 0;
+    border-top:4px solid transparent;
+    border-left:4px solid transparent;
+    border-bottom:4px solid white;
+    border-right:4px solid white;
+}
+    
+.button::before
+{
+    top: 0;
+    left: 0;
+    border-bottom: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top:4px solid white;
+    border-left:4px solid white;
+} */
+    
+/* .button:hover:after, .button:hover:before
+{
+    border: 4px solid white;
+    width: 100%;
+    height: 100%;
+
+} */
+
+button p
+{
+    font-size: 24px;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}

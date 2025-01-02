@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Lobster&family=Lora&family=Montserrat:wght@200&family=Open+Sans:wght@300&family=Permanent+Marker&family=Raleway:wght@300&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Lobster&family=Lora&family=Montserrat:wght@200&family=Open+Sans:wght@300&family=Permanent+Marker&family=Raleway:wght@300&family=Secular+One&family=Square+Peg&display=swap');
+
+body
+{
+    background-image: url(./shopbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Gideon Roman', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Secular One', sans-serif;
+
+    color: white;
+}
+
+*,*::after,*::before
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    position: fixed;
+    height: fit-content;
+    width: 100%;
+    font-size: 18px;
+}
+
+.header_content
+{
+    width: 85%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a
+{
+    padding: 10px;
+}
+
+header img
+{
+    height: 100px;
+    width: 100px;
+}
+
+.header_buttons
+{
+    display: flex;
+    width: 550px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a:hover
+{
+    background-color: #D62B70;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+footer
+{
+    width: 100%;
+    height: fit-content;
+    position: fixed;
+    bottom: 0;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.footer_content
+{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+main
+{
+    height: 100vh;
+    width: 100%;
+}
+
+.main_content
+{
+    height: 100%;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .text
+{
+    width: fit-content;
+    text-align: center;
+    margin-left: auto;
+    padding-right: 50px;
+}
+
+nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    --c: white;
+    color: var(--c);
+    font-size: 16px;
+    border: 0.3em solid var(--c);
+    border-radius: 0.5em;
+    width: 12em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    /* transition: 1s; */
+    margin: 1em;
+}
+
+nav ul li span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    /* transition: 1s; */
+    /* transition-delay: calc((var(--n) - 1) * 0.1s); */
+    z-index: -1;
+}
+
+nav ul li:hover {
+    color: #D62B70;
+}
+
+/* nav ul li:hover span {
+    transform: translateY(0) scale(2);
+}
+
+nav ul li span:nth-child(1) {
+    --n: 1;
+}
+
+nav ul li span:nth-child(2) {
+    --n: 2;
+}
+
+nav ul li span:nth-child(3) {
+    --n: 3;
+}
+
+nav ul li span:nth-child(4) {
+    --n: 4;
+} */
+
+li
+{
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.text img
+{
+    height: 200px;
+    width: 200px;
+}
