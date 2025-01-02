@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    transition:all .3s;
+    user-select:none;
+  }
+  
+  
+  body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    font-family: 'Open Sans', sans-serif;
+    background:#D62B70;
+  }
+  
+  
+  .auram-login{
+    width:800px;
+    height:480px;
+    display:flex;
+  
+  }
+  
+  .auram-login form{
+    background:#fff;
+    width:50%;
+    padding:25px 50px;
+  }
+  
+  .auram-login .poster{
+    width:50%;
+    background:url('https://img.freepik.com/premium-photo/excited-crazy-amazed-girlish-lady-open-mouth-wow-reaction_274222-27283.jpg');
+    background-size:cover;
+    background-position:33%;
+  }
+  
+  
+  .auram-login form img{
+    width:80px;
+  }
+  
+  .auram-login form .heading{
+    font-size:1.4em;
+    margin-top:15px;
+  }
+  
+  .auram-login form p{
+    font-size:.95em;
+    color:#444;
+    margin-bottom:40px;
+  }
+  
+  .auram-login form label{
+    display:block;
+    margin-top:20px;
+    color:#444;
+  }
+  
+  .auram-login form input{
+    border:none;
+    outline:none;
+    border-bottom:1px solid #000;
+    width:100%;
+    padding:10px 0px;
+  }
+  
+  
+  
+  .auram-login form .forgot{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:20px;
+    color:#444;
+    font-size:.85em;
+  }
+  
+  .auram-login form .forgot label{
+    margin-top:0;
+    font-size:1em;
+  }
+  
+  .auram-login form .forgot input{
+    width:auto;
+  }
+  
+  
+  .auram-login form .forgot a{
+    color:#D62B70;
+    cursor:pointer;
+  }
+  
+  
+  .auram-login form button{
+    border:none;
+    outline:none;
+    margin-top:40px;
+    padding:12px 0px;
+    border-radius:5px;
+    cursor:pointer;
+  }
+  
+  .auram-login form .login{
+    width:60%;
+    color:#fff;
+    background:#D62B70;
+  }
+  .auram-login form .login a{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .auram-login form .login:hover{
+    background:#fff;
+    color:#D62B70;
+    box-shadow:0 0 10px #ccc;
+  }
+
+  .auram-login form .login:hover a{
+    color:#D62B70;
+  }
+  
+  .auram-login form .signup{
+    width:38.5%;
+    color:#D62B70;
+    background:#fff;
+    box-shadow:0 0 10px #ccc;
+  }
+  .auram-login form .signup a{
+    text-decoration: none;
+    color:#D62B70;
+    background:#fff;
+  }
+  
+  .auram-login form .signup:hover{
+    background:#D62B70;
+    color:#fff;
+  }
+  .auram-login form .signup:hover a{
+    background:#D62B70;
+    color:#fff;
+  }
